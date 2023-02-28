@@ -40,6 +40,12 @@ button{
   outline: none;
   background-color: transparent;
 }
+button:hover{
+  color: white;
+  background-color: rgb(240, 15, 184);
+  transform: scale(1.5);
+  transition: all 1s ease;
+}
 
 .main{
   position: absolute;
@@ -52,9 +58,7 @@ h1{
   font-size: 60px;
   margin: 10px 0px 30px;
 }
-h1:hover{
-  color: white;
-}
+
 
 small{
   text-transform:  capitalize;
